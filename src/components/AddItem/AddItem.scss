@@ -1,0 +1,39 @@
+$delete-btn-color: #c6538c;
+$add-btn-color: #caee90;
+$clear-btn-color: #ca0b64;
+
+
+.add-item {
+    text-align: center;
+    margin: 30px;
+
+    button,
+    input {
+        border-radius: 5px;
+        border: 1px solid rgb(59, 43, 91);
+        padding: 0.7%;
+        margin: 2px;
+    }
+}
+.delete-btn{
+    background-color: $delete-btn-color;
+    padding: 1%;
+    font-size: 1.2em;
+    border-radius: 2px;
+    border: none;
+    color: black;
+}
+::placeholder,
+.add-item button,
+.delete-btn {
+    color: rgb(59, 43, 91);
+    font-weight: 500;
+}
+
+.add-btn {
+    background-color: $add-btn-color;
+}
+
+.clear-btn {
+    background-color: $clear-btn-color;
+}
